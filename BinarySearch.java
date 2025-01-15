@@ -34,6 +34,7 @@ public class BinarySearch {
                 high = middle - 1;
             }
         }
+        // Target not found
         searchResults.put("index", -1); 
         searchResults.put("comparisons", comparisons); 
         return searchResults;
