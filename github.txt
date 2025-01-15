@@ -1,0 +1,22 @@
+GitHub Commands:
+________________
+
+PATH\TO\LOCALREP>git config --global user.email "tom.brewer99@gmail.com"
+
+PATH\TO\LOCALREP>git config --global user.name "brewjunk"
+
+PATH\TO\LOCALREP>git add .    
+		"." adds all files in rep folder
+
+PATH\TO\LOCALREP>git commit -m "commit message"
+
+PATH\TO\LOCALREP>git pull origin main 
+
+		:wq to quit editot
+
+PATH\TO\LOCALREP>git push origin main 
+
+		"push to main branch, can specify"
+
+
+
