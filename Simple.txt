@@ -1,0 +1,74 @@
+
+import java.util.Arrays;
+import java.util.Math;
+
+class Simple {
+    /**
+     * @param args
+     */
+
+    public static void main(String args[]) {
+
+        String greeting = "Hello, World!";
+        System.out.println(greeting);
+        System.out.println("...");
+        for (int i = 0; i <= 10; i = i + 2) {
+            System.out.println(i);
+        }
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
+        double[] arr;
+        arr = new int[10];
+        double x = 2.0;
+
+        for (int j = 0; j < arr.length; j = j + 1) {
+            arr[j] = Math.pow(x, 2);
+            x++;
+
+        }
+        System.out.println("The 'arr' array is as follows :" + Arrays.toString(arr));
+
+        for (int k = 0; k < arr.length; k = k + 1) {
+            System.out.println(arr[k]);
+        }
+
+    }
+}
+// endregionint myNum = 5;
+// float myFloatNum = 5.99f;
+// char myLetter = 'D';
+// boolean myBool = true;
+// String myText = "Hello";
+// Java program to illustrate creating an array
+// of integers, puts some values in the array,
+// and prints each value to standard output.
+
+// class GFG {
+// public static void main(String[] args)
+// {
+// // declares an Array of integers.
+// int[] arr;
+
+// // allocating memory for 5 integers.
+// arr = new int[5];
+
+// // initialize the first elements of the array
+// arr[0] = 10;
+
+// // initialize the second elements of the array
+// arr[1] = 20;
+
+// // so on...
+// arr[2] = 30;
+// arr[3] = 40;
+// arr[4] = 50;
+
+// // accessing the elements of the specified array
+// for (int i = 0; i < arr.length; i++)
+// System.out.println("Element at index " + i
+// + " : " + arr[i]);
+// }
+// }
