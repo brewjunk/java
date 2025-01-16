@@ -2,6 +2,11 @@ import java.lang.Math;
 
 
 public class MultiplyStrings {
+    /**
+     * @param num1
+     * @param num2
+     * @return
+     */
     public static String multiply(String num1, String num2) {
             Double num1_sqrt = Math.sqrt(Double.parseDouble(num1))*Math.sqrt(Double.parseDouble(num1));
             Double num2_sqrt = Math.sqrt(Double.parseDouble(num2))*Math.sqrt(Double.parseDouble(num2));

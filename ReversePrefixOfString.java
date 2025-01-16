@@ -13,6 +13,9 @@ public class ReversePrefixOfString {
         return result;
 
     }
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         String word = "abcdefd"; String ch = "d";
         String answer = ReverseePrefix(word,ch);
